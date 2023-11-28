@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 12vh;
+    background-color: black;
+    /* background-color: #393939; */
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+    width: 100vw;
+    height: 65%;
+}
+
+.nav2 {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35%;
+    border-top: 3px solid #888888;
+}
+
+.nav2 a {
+    display: block;
+    color: antiquewhite;
+}
+
+nav div i {
+    color: #dd3a01;
+    font-size: 1.9vw;
+    width: 4vw;
+    height: 4vh;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-iconos {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    width: 23vw;
+}
+
+.logo img {
+    width: 17vh;
+    align-items: center;
+}
+
+body {
+    background-color: #fff2dd;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+}
+
+.log-o-registro {
+    display: flex;
+    justify-content: center;
+    /* border: #939393  solid 1px; */
+}
+
+.login-opcion {
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid #dd3a01;
+}
+
+.registro-opcion {
+    width: 50%;
+    text-align: center;
+}
+
+.conteiner {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border: white solid 1px;
+    flex-direction: column;
+}
+
+.mail {
+    padding: 2%;
+}
+
+.contra {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    justify-content: center;
+}
+
+.datos-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2vh;
+}
+
+.boton-crear {
+
+    margin: auto;
+    display: block;
+    background-color: #DD3A01;
+    color: #FFF2DD;
+}
+
+.boton-crear:hover {
+    box-shadow: 0px 0px 10px rgb(147, 147, 147);
+}
+
+a:visited {
+    color: inherit;
+}
