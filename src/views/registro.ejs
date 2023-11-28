@@ -17,29 +17,8 @@
   </head>
 
   <body>
-    <header>
-      <nav class="nav1">
-        <div class="logo">
-          <img src="/img/Logo_New_Men.png" alt="Logo NewMen" />
-        </div>
-        <!-- <div>
-          <input class="buscador1" type="search" name="busqueda" id="busqueda" placeholder="Buscar..."/>
-        </div> -->
-        <div class="nav-iconos">
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
-          <a href="login"><i class="fa-solid fa-user"></i></a>
-        </div>
-      </nav>
+    <%- include('./partials/header') %>
 
-      <nav class="nav2">
-        <a href="/carrito">REMERAS</a>
-        <a href="/carrito">CHOMBAS</a>
-        <a href="/carrito">JEANS</a>
-        <a href="/carrito">SWEATERS</a>
-        <a href="/carrito">OTROS</a>
-      </nav>
-    </header>
     <main>
       <div class="titulo-registrarme">
         <h1>Registro</h1>
@@ -139,8 +118,6 @@
       </div>
     </main>
 
-    <footer>
-      <h4>©copyright NEW MEN 2023</h4>
-    </footer>
+    <%- include('./partials/footer') %>
   </body>
 </html>

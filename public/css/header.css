@@ -1,0 +1,83 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 12vh;
+  background-color: black;
+  /* background-color: #393939; */
+}
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+  width: 100vw;
+  height: 65%;
+  align-items: center;
+}
+
+.buscador1 {
+  width: 45vw;
+  height: 100%;
+  align-items: center;
+}
+
+.nav2 {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 35%;
+  border-top: 3px solid #888888;
+}
+
+.nav2 a {
+  display: block;
+  color: antiquewhite;
+  font-size: 0.6em;
+  transition: color 0.5ms;
+}
+
+.nav2 a:hover {
+  color: #dd3a01;
+}
+
+.logo img {
+  width: 17vh;
+  align-items: center;
+}
+
+nav div i {
+  color: #dd3a01;
+
+  font-size: 1.9vw;
+  width: 4vw;
+  height: 4vh;
+
+  text-align: center;
+  transition: color 0.5s;
+}
+
+nav div i:hover {
+  color: #fff2dd;
+}
+
+.nav-iconos {
+  display: flex;
+  justify-content: space-around;
+  /* align-self: center; */
+  align-items: center;
+  /* width: 23vw; */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .nav2 a {
+    font-size: 1em;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .nav2 a {
+    font-size: 1.3em;
+  }
+}

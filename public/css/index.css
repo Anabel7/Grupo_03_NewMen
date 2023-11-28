@@ -1,0 +1,77 @@
+body {
+  background-color: #fff2dd;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+.producto {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: 5%;
+  background-color: white;
+  padding: 1.5%;
+  transition: box-shadow 0.5s;
+}
+
+.producto:hover {
+  box-shadow: 0px 0px 10px rgb(221, 58, 1);
+}
+
+.producto a {
+  display: block;
+}
+.foto-producto {
+  width: 100%;
+  align-items: center;
+}
+.descripcion {
+  width: 100%;
+  font-size: 0.9em;
+}
+.precio {
+  width: 50%;
+}
+
+.producto i {
+  order: 1;
+  width: 50%;
+  text-align: start;
+  color: #dd3a01;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .producto {
+    width: 30%;
+    margin: 1%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .producto {
+    width: 20%;
+  }
+  .descripcion {
+    font-size: 1.1em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up)
+  @media only screen and (min-width: 992px) {...}
+  
+   Extra large devices (large laptops and desktops, 1200px and up) 
+  @media only screen and (min-width: 1200px) {...} */
