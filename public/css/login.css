@@ -27,11 +27,13 @@ body {
 
 .conteiner {
   display: flex;
-  width: 50%;
-  justify-content: center;
+  width: 70%;
+  margin-left: 10%;
+  padding: 5%;
   align-items: center;
   border: white solid 1px;
   flex-direction: column;
+  align-content: center;
 }
 
 .mail {
