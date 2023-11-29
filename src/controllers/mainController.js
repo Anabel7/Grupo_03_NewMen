@@ -12,7 +12,7 @@ const controller = {
         res.render('carrito');
     },
     detalles: (req, res) => {
-        res.render('detallesproducto');
+        res.render('detalles');
     }
 }
 module.exports = controller;
