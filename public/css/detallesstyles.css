@@ -19,6 +19,7 @@ h1{
 }
 
 .contenedorimagen {
+    display: flex;
     border: 2px solid black
 }
 
@@ -36,9 +37,11 @@ h1{
 
 }
 
+
 .section-detalles {
     display: flex;
     border: 2px solid black;
+    height: 100%;
 }
 
 .caracteristicas {

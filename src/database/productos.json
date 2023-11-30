@@ -1,0 +1,37 @@
+{
+    "productos": [
+      {
+        "id": "1",
+        "nombre": "Camisa a rayas",
+        "descripcion": "Camisa de manga larga a rayas para hombre.",
+        "precio": "15000",
+        "descuento": "10",
+        "imagen": "camisa-rayas.jpg"
+      },
+      {
+        "id": "2",
+        "nombre": "Jeans ajustados",
+        "descripcion": "Jeans ajustados de color azul para mujer.",
+        "precio": "14000",
+        "descuento": "15",
+        "imagen": "jeans-ajustados.jpg"
+      },
+      {
+        "id": "3",
+        "nombre": "Vestido floral",
+        "descripcion": "Vestido floral de verano con tirantes.",
+        "precio": "6000",
+        "descuento": "20",
+        "imagen": "vestido-floral.jpg"
+      },
+      {
+        "id": "4",
+        "nombre": "Remera deportivas",
+        "descripcion": "Remera deportivas cómodas y elegantes.",
+        "precio": "5000",
+        "descuento": "5",
+        "imagen": "Remera-deportivas.jpg"
+      }
+    ]
+  }
+  

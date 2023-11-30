@@ -8,105 +8,110 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="section-detalles">
-        <article class="imagen">
-            <div class="contenedorimagen">
-                <img src="/img/jean-celeste.jpg">
-            </div>
-        </article>
-        <article class="detalles">
-            <div class="nombrePrecio">
-                <h1>New Jean Man. Young Style. </h1><br>
-                <p class="precio">Precio: $ 20.000</p>
-            </div>
-            <div class="divbutton">
-                <button class="buttonfav"><i class="fa-regular fa-heart"></i></button>
-            </div>
-
-        <div class="cajaCompras">
-                <div class="caracteristicas">
-    
-                    <div class="especificidad">
-                        <h2>talle</h2>    
-                        <select id="talle">
-                        <option value="38">38</option>
-                        <option value="40">40</option>
-                        <option value="42">42</option>
-                        <option value="44">44</option>
-                        </select>
-                
-                    <p>Has seleccionado: <span id="resultadotalle"></span></p>
-                
-                    <script>
-                        const selectTalle = document.getElementById('talle');
-                        const resultadotalle = document.getElementById('resultadotalle');
-                
-                        selectTalle.addEventListener('change', () => {
-                            resultadotalle.textContent = selectTalle.value;
-                        });
-                    </script>
+    <%- include('./partials/header') %>
+    <div class="conteiner">
+        <section class="section-detalles">
+            <article class="imagen">
+                <div class="contenedorimagen">
+                    <img src="/img/jean-celeste.jpg">
                 </div>
-                    <div class="especificidad">
-                        <h2>color</h2>
-                        <select id="color">
-                            <option value="celeste">Celeste</option>
-                            <option value="blanco">Blanco</option>
-                            <option value="negro">Negro</option>
-                        </select>
+            </article>
+            <article class="detalles">
+                <div class="nombrePrecio">
+                    <h1>New Jean Man. Young Style. </h1><br>
+                    <p class="precio">Precio: $ 20.000</p>
+                </div>
+                <div class="divbutton">
+                    <button class="buttonfav"><i class="fa-regular fa-heart"></i></button>
+                </div>
+    
+            <div class="cajaCompras">
+                    <div class="caracteristicas">
+        
+                        <div class="especificidad">
+                            <h2>talle</h2>    
+                            <select id="talle">
+                            <option value="38">38</option>
+                            <option value="40">40</option>
+                            <option value="42">42</option>
+                            <option value="44">44</option>
+                            </select>
                     
-                        <p>Has seleccionado: <span id="resultadocolor"></span></p>
+                        <p>Has seleccionado: <span id="resultadotalle"></span></p>
                     
                         <script>
-                            const selectcolor = document.getElementById('color');
-                            const resultadocolor = document.getElementById('resultadocolor');
+                            const selectTalle = document.getElementById('talle');
+                            const resultadotalle = document.getElementById('resultadotalle');
                     
-                            selectcolor.addEventListener('change', () => {
-                                resultadocolor.textContent = selectcolor.value;
+                            selectTalle.addEventListener('change', () => {
+                                resultadotalle.textContent = selectTalle.value;
                             });
                         </script>
-                    
                     </div>
-                    <div class="especificidad">
-                        <h2>cantidad</h2>
-                        <select id="cantidad">
-                            <option value="1 (uno)">1</option>
-                            <option value="2 (dos)">2</option>
-                            <option value="3 (tres)">3</option>
-                            <option value="4 (cuatro)">4</option>
-                            <option value="5 (cinco)">5</option>
-                            <option value="6 (seis)">6</option>
-                            <option value="7 (siete)">7</option>
-                        </select>
+                        <div class="especificidad">
+                            <h2>color</h2>
+                            <select id="color">
+                                <option value="celeste">Celeste</option>
+                                <option value="blanco">Blanco</option>
+                                <option value="negro">Negro</option>
+                            </select>
+                        
+                            <p>Has seleccionado: <span id="resultadocolor"></span></p>
+                        
+                            <script>
+                                const selectcolor = document.getElementById('color');
+                                const resultadocolor = document.getElementById('resultadocolor');
+                        
+                                selectcolor.addEventListener('change', () => {
+                                    resultadocolor.textContent = selectcolor.value;
+                                });
+                            </script>
+                        
+                        </div>
+                        <div class="especificidad">
+                            <h2>cantidad</h2>
+                            <select id="cantidad">
+                                <option value="1 (uno)">1</option>
+                                <option value="2 (dos)">2</option>
+                                <option value="3 (tres)">3</option>
+                                <option value="4 (cuatro)">4</option>
+                                <option value="5 (cinco)">5</option>
+                                <option value="6 (seis)">6</option>
+                                <option value="7 (siete)">7</option>
+                            </select>
+                        
+                            <p>Has seleccionado: <span id="resultadocantidad"></span></p>
+                        
+                            <script>
+                                const selectcantidad = document.getElementById('cantidad');
+                                const resultadocantidad = document.getElementById('resultadocantidad');
+                        
+                                selectcantidad.addEventListener('change', () => {
+                                    resultadocantidad.textContent = selectcantidad.value;
+                                });
+                            </script>
+                        
+                        </div>
+        
+                    </div>
                     
-                        <p>Has seleccionado: <span id="resultadocantidad"></span></p>
-                    
-                        <script>
-                            const selectcantidad = document.getElementById('cantidad');
-                            const resultadocantidad = document.getElementById('resultadocantidad');
-                    
-                            selectcantidad.addEventListener('change', () => {
-                                resultadocantidad.textContent = selectcantidad.value;
-                            });
-                        </script>
-                    
+                    <div class="buttondivcompras">
+                        <div class="botones">
+                            <button type="button" class="buttoncarrito">AGREGAR AL CARRITO</button> 
+                        </div>
+                        <div class="botones">
+                            <button type="button" class="buttoncompra">COMPRAR AHORA</button>
+                        </div>
                     </div>
     
-                </div>
-                
-                <div class="buttondivcompras">
-                    <div class="botones">
-                        <button type="button" class="buttoncarrito">AGREGAR AL CARRITO</button> 
-                    </div>
-                    <div class="botones">
-                        <button type="button" class="buttoncompra">COMPRAR AHORA</button>
-                    </div>
-                </div>
+            </div>
+    
+    
+    
+            </article>
+        </section>
 
-        </div>
-
-
-
-        </article>
-    </section>
+    </div>
+    <%- include('./partials/footer') %>
 </body>
 </html>
