@@ -2,36 +2,68 @@
     "productos": [
       {
         "id": "1",
-        "nombre": "Camisa a rayas",
-        "descripcion": "Camisa de manga larga a rayas para hombre.",
-        "precio": "15000",
+        "nombre": "Remera blanca Simpson",
+        "descripcion": "Remera blanca Simpson de manga corta para hombre.",
+        "precio": "11500",
         "descuento": "10",
         "imagen": "camisa-rayas.jpg"
       },
       {
         "id": "2",
-        "nombre": "Jeans ajustados",
-        "descripcion": "Jeans ajustados de color azul para mujer.",
-        "precio": "14000",
+        "nombre": "Jeans celeste ajustado",
+        "descripcion": "Jeans ajustados de color azul.",
+        "precio": "15000",
         "descuento": "15",
-        "imagen": "jeans-ajustados.jpg"
+        "imagen": "jean-celeste.jpg"
       },
       {
         "id": "3",
-        "nombre": "Vestido floral",
-        "descripcion": "Vestido floral de verano con tirantes.",
-        "precio": "6000",
+        "nombre": "Remera Capitan America",
+        "descripcion": "Remera estampada Capitan america manga corta",
+        "precio": "12000",
         "descuento": "20",
-        "imagen": "vestido-floral.jpg"
+        "imagen": "img/remeracapamer.jpg"
       },
       {
         "id": "4",
-        "nombre": "Remera deportivas",
-        "descripcion": "Remera deportivas cómodas y elegantes.",
-        "precio": "5000",
+        "nombre": "Remera gris",
+        "descripcion": "Remera Gris cómoda y elegante.",
+        "precio": "10000",
         "descuento": "5",
-        "imagen": "Remera-deportivas.jpg"
-      }
-    ]
-  }
+        "imagen": "img/remeraGris.jpg"
+      },
+      {
+        "id": "5",
+        "nombre": "Remera Lisa Gris",
+        "descripcion": "Remera lisa Gris cómoda y elegante.",
+        "precio": "10000",
+        "descuento": "5",
+        "imagen": "img/remeraGris2.jpg"
+      },
+      {
+        "id": "6",
+        "nombre": "Remera Negra Star-War",
+        "descripcion": "Remera Negra Star-War estampada mangas cotas",
+        "precio": "16000",
+        "descuento": "5",
+        "imagen": "img/remeraNegra2.jpg"
+      },
+      {
+        "id": "7",
+        "nombre": "Remera DeadPool",
+        "descripcion": "Remera DeadPool elegante.",
+        "precio": "16000",
+        "descuento": "5",
+        "imagen": "img/remeraRoja.jpg"
+      },
+      {
+        "id": "8",
+        "nombre": "Remera Queen",
+        "descripcion": "Remera Reina cómoda y elegante.",
+        "precio": "16000",
+        "descuento": "5",
+        "imagen": "img/remeraVerde.jpg"
+    }
+  ]
+}
   
