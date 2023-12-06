@@ -3,7 +3,7 @@ const router = express.Router();
 const userController = require('../controllers/userController');
 
 router.get('/admin', userController.admin);
-router.get('/agregarProducto', userController.agregarProducto);
-router.get('/editarProducto', userController.editarProducto);
+router.get('/login', userController.login);
+router.get('/registro', userController.registro);
 
 module.exports = router;
