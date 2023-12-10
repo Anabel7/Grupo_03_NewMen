@@ -1,4 +1,10 @@
-# Grupo_03_NewMen
+IMPORTANTE LEER (Abandonamiento del proyecto)
+
+Debido a poca o nula predisposición al trabajo en algunos miembros del grupo, el mismo fue desarmado. Este proyecto va a quedar inconcluso, más sin embargo, el repositorio quedará aquí como testimonio del trabajo que se ha venido realizando hasta ahora, y en caso de que alguno de los miembros que abandonaron deseen retomar el proyecto y trabajarlo.
+Los únicos 2 miembros del grupo que quedamos (Nelson Bravo y Anabel Alvarado), estaremos trabajando en el siguiente proyecto para el cursado: https://github.com/Anabel7/Grupo_03_VindicatorVinyls
+Esperamos que disculpen el cambio nuevo de repositorio, pero decidimos que la idea de esta página no nos convencía, y por eso empezaremos con una dedicada a la venta de vinilos en el nuevo repositorio.
+Esperamos también que comprendan que el cambio tan repentino de la situación nos pondrá un poco por detrás de las actividades, pero nos comprometemos a ponernos al día y realizar una página web funcional y con alma.
+Dejamos a continuación el texto original que tenía el readme:
 
 
 #Descripción de Productos ofrecidos.
